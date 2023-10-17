@@ -1,0 +1,21 @@
+.app-user-card
+  padding: 30px
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr))
+  gap: 60px
+  height: max-content
+  &__image
+    width: 100%
+    height: 100%
+  &__data
+    display: grid
+    grid-template-columns: 1fr
+    grid-auto-rows: max-content
+    gap: 20px
+    justify-content: start
+  &__contact
+    display: grid
+    grid-template-columns: max-content 1fr
+    gap: 10px
+  &__about
+    line-height: 17px

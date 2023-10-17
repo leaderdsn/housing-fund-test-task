@@ -1,0 +1,35 @@
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap'
+
+html
+  box-sizing: border-box
+
+*,
+*::before,
+*::after
+  box-sizing: inherit
+
+
+body
+  font-family: Montserrat, sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  background-color: $color-neutral_1
+  color: $color-neutral_7
+  font-size: 14px
+  min-height: 100vh
+
+//scrollbox
+::-webkit-scrollbar
+  width: 8px
+  height: 8px
+
+::-webkit-scrollbar-track
+  border-radius: 5px
+
+::-webkit-scrollbar-thumb
+  background: $color-neutral_5
+  border-radius: 5px
+
+::-webkit-scrollbar-thumb:hover
+  background: $color-neutral_5
+

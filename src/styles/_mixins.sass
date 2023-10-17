@@ -1,0 +1,23 @@
+@mixin x-small-layout
+  @media (max-width: 575px)  
+    @content
+
+@mixin small-layout
+  @media (max-width: 667px)  
+    @content
+
+@mixin medium-layout
+  @media (max-width: 991px)  
+    @content
+
+@mixin large-layout
+  @media (max-width: 1199px)  
+    @content
+
+@mixin x-large-layout
+  @media (min-width: 1266px)  
+    @content
+
+@mixin box-shadow
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1)
+
